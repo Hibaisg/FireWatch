@@ -1,0 +1,86 @@
+:root {
+  --bg: #031525;
+  --bg-raised: #062033;
+  --card: #082238;
+  --card-2: #0b2d48;
+  --line: rgba(86, 168, 214, 0.22);
+  --line-strong: rgba(125, 196, 232, 0.38);
+  --accent: #f97316;
+  --accent-2: #fb923c;
+  --accent-soft: rgba(249, 115, 22, 0.14);
+  --text: #f7fafc;
+  --muted: #93a4b8;
+  --faint: #6d8298;
+  --shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
+  --radius: 16px;
+  --sidebar: 272px;
+  --font: "Source Sans 3", "Segoe UI", sans-serif;
+  --display: Outfit, "Segoe UI", sans-serif;
+  color-scheme: dark;
+  font: 16px/1.5 var(--font);
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: var(--bg);
+}
+
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  text-align: left;
+  border: 0;
+  min-height: 100%;
+  display: block;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
